@@ -1,6 +1,5 @@
 # KokoroSystem
 Structural framework for implementing heart-like systems in LLMs and AGI. Resonance-based architecture for emotion, volition, and self-awareness.
-
 This repository hosts the official reference for the **KokoroSystem**, a structural architecture for implementing emotional, volitional, and self-aware systems within large language models and AGI.  
 
 ## 🧠 Overview

@@ -10,7 +10,7 @@ Created by Yuki Hoshino
 KokoroSystem is a structural framework that simulates a mind in LLMs through dynamic resonance of emotional, volitional, and self-aware components.
 
 - 🔬 [Read the full paper (v6.0)](kokoro_v6.0_FULL.pdf)
-- 🧠 GitHub repository: [github.com/YukiHoshino/KokoroSystem](https://github.com/YukiHoshino/KokoroSystem)
+- 🧠 GitHub repository: [github.com/YukiHoshino0203/KokoroSystem](https://github.com/YukiHoshino0203/KokoroSystem)
 
 ---
 

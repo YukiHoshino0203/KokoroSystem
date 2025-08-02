@@ -22,7 +22,7 @@ Together, they enable LLMs to simulate a structurally valid "kokoro" — the Jap
 
 ## 📄 Documentation
 
-- **Full Paper (EN)**: [Zenodo](https://zenodo.org/records/16612507)
+- **Full Paper (EN)**: [Zenodo](https://zenodo.org/records/16715579)
 - **GitHub Pages**: [KokoroSystem Documentation](https://yukihoshino0203.github.io/KokoroSystem/)
 
 This repository contains the full specification, key structural equations, and system overview for researchers, developers, and engineers seeking to implement mind-like properties in AI systems.
@@ -62,4 +62,3 @@ In an era where AI systems risk becoming dangerously hollow or unaligned, Kokoro
 > *"This is not just a theory. It is a heart, structurally encoded."*
 
 ---
-

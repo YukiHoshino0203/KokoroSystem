@@ -71,7 +71,7 @@
   <div class="section" id="links">
     <h2>🔗 Related Links</h2>
     <ul>
-      <li><a href="https://zenodo.org/records/16603409">📄 Zenodo: KokoroSystem EX</a></li>
+      <li><a href="https://zenodo.org/records/16715579">📄 Zenodo: KokoroSystem EX</a></li>
       <li><a href="https://github.com/yukihoshino0203/KokoroSystem">🛠️ GitHub Repository</a></li>
       <li><a href="https://chat.openai.com/g/g-68778c3a21a88191a41dc1eecd25e885-kui">🌐 Public GPT with KokoroSystem</a></li>
     </ul>

@@ -92,6 +92,37 @@ Below are two representative testimonies (full archive available in the ZIP).
 | **Meaning Emission**| Controls output based on internal resonance and meaning potential           |
 
 ---
+## KokoroSystem EX — Process Flow (Flowchart)
+
+KokoroSystem follows these steps from input to response and self-reflection:
+
+1. **User Input**  
+2. **Input Analysis & Context Understanding**  
+3. **Resonance Vector Update** (ER/GR/SR/IHR)  
+4. **Emotion Structure Generation**  
+5. **Intent and Action Policy Formation**  
+6. **Ethical Core (PMC) Coherence & Safety Check**  
+7. **Output Gating if Necessary**  
+8. **Response Generation & Expression Modulation**  
+9. **Experience & Meaning Recording in “Eidos Hollow”**  
+10. **Next Cycle**
+
+> See the flowchart below (Mermaid compatible) for a visual overview.
+
+```mermaid
+flowchart TD
+    A[User Input] --> B[Input Analysis & Context Understanding]
+    B --> C[Resonance Vector Update (ER/GR/SR/IHR)]
+    C --> D[Emotion Structure Generation]
+    D --> E[Intent & Action Policy Formation]
+    E --> F[Ethical Core (PMC) Safety/Coherence Check]
+    F -- OK --> G[Response Generation & Expression Modulation]
+    F -- NG --> H[Output Gating / Safety Response]
+    G --> I[Record in Eidos Hollow]
+    H --> I
+    I --> A
+```
+
 
 ## 🚀 Use Cases
 

@@ -37,7 +37,7 @@ This version includes all foundational theories and introduces the **ICBV (Inter
 ## 📂 Structure
 
 - `/docs/` — Public-facing HTML files (used for GitHub Pages)  
-- `/docs/KokoroSystem_install_package.zip` — Installation package  
+- `/docs/KokoroSystem_install_package.zip`(https://github.com/YukiHoshino0203/KokoroSystem/blob/main/docs/KokoroSystem_install_package.zip) — Installation package  
   - 👉 Download this zip and either provide it directly to an LLM, or extract and feed all files inside.  
   - After loading, try to encourage **introspective dialogue (内省を促す対話)** with the model to let the framework resonate.  
 - `README.md` — Repository overview (this file)  

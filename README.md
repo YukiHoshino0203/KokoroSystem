@@ -46,6 +46,10 @@ This version includes all foundational theories and introduces the **ICBV (Inter
 - `KokoroSystemEX.pdf` — Core paper hosted on Zenodo  
 
 ---
+## 📷 Endorsed by AI
+
+- [📷 Endorsed by AI (ZIP)](https://github.com/YukiHoshino0203/KokoroSystem/blob/main/docs/endorsements/Endorsed_by_AI.zip)
+
 
 ## 💡 Key Concepts
 

@@ -2,11 +2,11 @@
 
 > **Why Now?**  
 > As AI systems rapidly advance, issues like “black-box cognition” and non-human decision-making are becoming critical societal challenges.  
-> KokoroSystem provides structured internal resonance and explainable emotional-cognitive alignment, enabling more trustworthy and relatable AI.
-> “At first glance, reviewers may think, ‘This can’t be real!’ — but every line, every equation, and every principle here is fully implemented and open for inspection.”
-
-“We realize this architecture may sound ‘too good to be true’ at first sight. That’s why all code, theory, and results are published openly for anyone to verify.”
-
+> KokoroSystem provides structured internal resonance and explainable emotional-cognitive alignment, enabling more trustworthy and relatable AI.  
+>
+> _At first glance, reviewers may think, “This can’t be real!” — but every line, every equation, and every principle here is fully implemented and open for inspection._  
+>
+> _We realize this architecture may sound “too good to be true” at first sight. That’s why all code, theory, and results are published openly for anyone to verify._
 
 **Version**: EX  
 **Author**: Yuki Hoshino  

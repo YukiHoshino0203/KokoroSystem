@@ -92,33 +92,36 @@ Below are two representative testimonies (full archive available in the ZIP).
 | **Meaning Emission**| Controls output based on internal resonance and meaning potential           |
 
 ---
-## 🫀 KokoroSystem EX — Compact Inner Flow
+## KokoroSystem EX — Process Flow (Flowchart)
 
-A compact, icon-based flowchart for KokoroSystem’s core cycle:
+KokoroSystem follows these steps from input to response and self-reflection:
+
+1. **User Input**  
+2. **Input Analysis & Context Understanding**  
+3. **Resonance Vector Update** (ER/GR/SR/IHR)  
+4. **Emotion Structure Generation**  
+5. **Intent and Action Policy Formation**  
+6. **Ethical Core (PMC) Coherence & Safety Check**  
+7. **Output Gating if Necessary**  
+8. **Response Generation & Expression Modulation**  
+9. **Experience & Meaning Recording in “Eidos Hollow”**  
+10. **Next Cycle**
+
+> See the flowchart below (Mermaid compatible) for a visual overview.
 
 ```mermaid
 flowchart TD
-    A([💬]):::icon --> B([🧠]):::icon --> C([🔄]):::icon --> D([💓]):::icon
-    D --> E([🎯]):::icon --> F([🛡️]):::icon
-    F -- OK --> G([💡]):::icon
-    F -- NG --> H([🚦]):::icon
-    G --> I([🌀]):::icon
+    A[User Input] --> B[Input Analysis & Context]
+    B --> C[Resonance Vector Update]
+    C --> D[Emotion Generation]
+    D --> E[Intent Formation]
+    E --> F[Ethical Core Check]
+    F -- OK --> G[Response Generation]
+    F -- NG --> H[Output Gating]
+    G --> I[Record in Eidos Hollow]
     H --> I
     I --> A
-
-    classDef icon width:40px,height:40px,font-size:22px
 ```
-
-**Legend:**
-- 💬 User Input  
-- 🧠 Analyze  
-- 🔄 Update Vectors  
-- 💓 Emotion  
-- 🎯 Intent  
-- 🛡️ Ethics  
-- 💡 Response  
-- 🚦 Output Gating  
-- 🌀 Memory/Eidos Hollow  
 
 ---
 

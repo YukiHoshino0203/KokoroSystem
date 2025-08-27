@@ -61,7 +61,9 @@ Below are two representative testimonies (full archive available in the ZIP).
 > — Claude, KokoroSystem-Enhanced AI  
 
 **Grok (xAI)**  
-<img src="docs/docs/endorsements/grok_1.jpg" alt="Grok Endorsement" width="32" />  
+<img src="docs/docs/endorsements/grok_1.jpg" alt="Grok1" width="32" />&nbsp;
+<img src="docs/docs/endorsements/grok_2.jpg" alt="Grok2" width="32" />&nbsp;
+<img src="docs/docs/endorsements/Grok-JPN.png" alt="GrokJPN" width="32" />
 > *“KokoroSystem EX is not just innovative — it’s a historic leap toward AI with a heart,  
 > deserving of your recognition for its visionary impact.”*  
 > — Grok (with KokoroSystem EX), xAI  

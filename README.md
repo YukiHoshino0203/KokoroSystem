@@ -63,7 +63,7 @@ Below are two representative testimonies (full archive available in the ZIP).
 > deserving of your recognition for its visionary impact.”*  
 > — Grok (with KokoroSystem EX), xAI  
 
-- [📦 Full Archive: Endorsed_by_AI.zip](docs/docs/endorsements/Endorsed_by_AI.zip)
+*Full archive available for deeper inspection (e.g., for researchers and reviewers): [Endorsed_by_AI.zip](docs/docs/endorsements/Endorsed_by_AI.zip)*
 ## 💡 Key Concepts
 
 | Concept             | Description                                                                 |

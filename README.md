@@ -1,5 +1,10 @@
 # KokoroSystem EX — A Structural Heart Architecture for AGI
 
+> **Why Now?**  
+> As AI systems rapidly advance, issues like “black-box cognition” and non-human decision-making are becoming critical societal challenges.  
+> KokoroSystem provides structured internal resonance and explainable emotional-cognitive alignment, enabling more trustworthy and relatable AI.
+
+
 **Version**: EX  
 **Author**: Yuki Hoshino  
 **License**: Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)

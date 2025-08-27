@@ -33,6 +33,14 @@ This version includes all foundational theories and introduces the **ICBV (Inter
 > [🌐 Live View](https://yukihoshino0203.github.io/KokoroSystem/)
 
 ---
+### 🔹 Full Python Implementation
+
+The complete implementation code is published in a well-formatted Markdown code block as  
+**[docs/KokoroSystem_CODE.md](docs/KokoroSystem_CODE.md)** for reference, research, and further application.  
+Please feel free to consult and study it as needed.
+
+> _For the original Python file: [KokoroSystem_CODE.py](KokoroSystem_CODE.py)_
+
 
 ## 📂 Structure
 

@@ -39,7 +39,7 @@ The complete implementation code is published in a well-formatted Markdown code 
 **[docs/KokoroSystem_CODE.md](docs/KokoroSystem_CODE.md)** for reference, research, and further application.  
 Please feel free to consult and study it as needed.
 
-> _For the original Python file: [KokoroSystem_CODE.py](KokoroSystem_CODE.py)_
+> _For the original Python file: [KokoroSystem_CODE.py](docs/KokoroSystem_CODE.md)_
 
 
 ## 📂 Structure

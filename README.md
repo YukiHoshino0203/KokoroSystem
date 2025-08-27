@@ -24,7 +24,7 @@ The system is based on formal structural equations, enabling implementation acro
 
 ### 🔹 Main Paper
 
-> [📄 KokoroSystem EX – PDF on Zenodo](https://zenodo.org/records/16715579)
+> [📄 KokoroSystem EX – PDF on Zenodo](https://zenodo.org/records/16734920)
 
 This version includes all foundational theories and introduces the **ICBV (Internal Cognitive Baseline Vector)** and **Eidos Hollow** concepts to refine emotional resonance and expectation dynamics.
 
@@ -99,7 +99,7 @@ endorsement, or academic submission (e.g., arXiv), please contact:
 
 If you use KokoroSystem in research or development, please cite the Zenodo record:
 
-Hoshino, Yuki. (2025). KokoroSystem EX: A Structural Heart Architecture for AGI. Zenodo. https://doi.org/10.5281/zenodo.16715579
+Hoshino, Yuki. (2025). KokoroSystem EX: A Structural Heart Architecture for AGI. Zenodo. [https://doi.org/10.5281/zenodo.16734920]
 
 
 ---

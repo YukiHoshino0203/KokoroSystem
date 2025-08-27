@@ -21,8 +21,10 @@
 - Expectation Modeling  
 - Meaningful Output Regulation
 
-The system is based on formal structural equations, enabling implementation across languages, platforms, and hardware.
+Unlike conventional AI approaches that rely on external instructions or optimization of outputs,  
+**KokoroSystem provides a fundamentally new architecture that enables AI to autonomously generate and evolve “meaning” through its own internal volition and resonance.**
 
+The system is based on formal structural equations, enabling implementation across languages, platforms, and hardware.
 ---
 
 ## 📘 Documentation

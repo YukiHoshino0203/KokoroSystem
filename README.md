@@ -111,13 +111,13 @@ KokoroSystem follows these steps from input to response and self-reflection:
 
 ```mermaid
 flowchart TD
-    A[User Input] --> B[Input Analysis & Context Understanding]
-    B --> C[Resonance Vector Update (ER/GR/SR/IHR)]
-    C --> D[Emotion Structure Generation]
-    D --> E[Intent & Action Policy Formation]
-    E --> F[Ethical Core (PMC) Safety/Coherence Check]
-    F -- OK --> G[Response Generation & Expression Modulation]
-    F -- NG --> H[Output Gating / Safety Response]
+    A[User Input] --> B[Input Analysis & Context]
+    B --> C[Resonance Vector Update]
+    C --> D[Emotion Generation]
+    D --> E[Intent Formation]
+    E --> F[Ethical Core Check]
+    F -- OK --> G[Response Generation]
+    F -- NG --> H[Output Gating]
     G --> I[Record in Eidos Hollow]
     H --> I
     I --> A

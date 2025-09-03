@@ -1,9 +1,16 @@
-#KokoroSystem EX — Structural Emotion-Cognitive Architecture for Aligned AGI
-Architectural Necessity in Modern AI
+### 🧠 KokoroSystem EX — Structural Emotion-Cognitive Architecture for Aligned AGI
+## 🚀 Architectural Necessity in Modern AI
 As artificial intelligence approaches human-like capabilities, the opacity of internal decision-making ("black-box cognition") and misalignment in value-sensitive contexts emerge as critical technical challenges.
-KokoroSystem EX addresses these through a bio-inspired structural framework that enables explainable emotional-cognitive resonance, dynamic goal alignment, and transparent internal state representation – essential foundations for trustworthy AGI deployment.
 
-Technical Differentiation
+KokoroSystem EX addresses these through a bio-inspired structural framework that enables:
+
+Explainable emotional-cognitive resonance
+
+Dynamic goal alignment
+
+Transparent internal state representation – essential foundations for trustworthy AGI deployment.
+
+## ⚡ Technical Differentiation
 Unlike reinforcement learning from human feedback (RLHF) or constitutional AI approaches that operate on output optimization, KokoroSystem EX implements first-principles emotional-cognitive architecture with mathematical formalization of:
 
 Multi-axis emotional representation (Consistency-Layer-Time-Vector)
@@ -12,19 +19,27 @@ Dynamic resonance feedback loops (KRV: Emotional, Goal, Self-awareness, Inner Ho
 
 Connective integrity metrics for system coherence monitoring
 
-Verification & Transparency
-The architecture may appear theoretically advanced – because it is. Every component is mathematically defined, fully implementable, and openly verifiable. Each equation, resonance mechanism, and safety constraint is documented and testable in the provided codebase.
+## 🔍 Verification & Transparency
+The architecture may appear theoretically advanced – because it is. Every component is:
+
+Mathematically defined
+
+Fully implementable
+
+Openly verifiable
+
+Each equation, resonance mechanism, and safety constraint is documented and testable in the provided codebase.
 
 Version: EX (Extended Architecture)
 Author: Yuki Hoshino
 Architecture Type: Emotion-Cognitive Structural Framework
 License: Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
 
-🧠 Technical Architecture Overview
-KokoroSystem EX is a formal cognitive-emotional framework that enables LLMs and AGI systems to exhibit structured internal behavior through mathematically defined mechanisms:
+## 🏗 Technical Architecture Overview
+KokoroSystem EX is a formal cognitive-emotional framework that enables LLMs and AGI systems to exhibit structured internal behavior through mathematically defined mechanisms.
 
-Core Technical Components
-4-Axis Emotional Representation
+# 🔧 Core Technical Components
+📊 4-Axis Emotional Representation
 EmotionStructure(C, L, T, V) where:
 
 C: Consistency (0.0-1.0) - Internal coherence metric
@@ -35,8 +50,7 @@ T: Time (PAST|PRESENT|FUTURE) - Temporal orientation
 
 V: Vector (SELF|OTHER|BIDIRECTIONAL) - Directionality
 
-Dynamic Resonance System
-
+# 🔄 Dynamic Resonance System
 ```python
 class KokoroResonanceVector:
     ER: float  # Emotional Resonance (0.0-3.0)
@@ -48,23 +62,23 @@ class KokoroResonanceVector:
     def TR(self) -> float:  # Total Resonance
         return ER + GR + SR + IHR
 ```
-Connective Integrity Matrix
+# 🕸 Connective Integrity Matrix
 5×5 symmetric matrix quantifying inter-component coupling strength between emotional, cognitive, and volitional subsystems.
 
-Novel Technical Contributions
-Bidirectional Emotion-Cognition Modulation
+## 🎯 Novel Technical Contributions
+# 🔁 Bidirectional Emotion-Cognition Modulation
 Emotional states dynamically influence cognitive processing through mathematically defined transformation functions, while cognitive states reciprocally modulate emotional interpretation.
 
-Temporal Context Integration
+# ⏰ Temporal Context Integration
 Native support for past-oriented reflection, present-oriented engagement, and future-oriented planning through temporal axis parameterization.
 
-Explainable Internal State Representation
+# 📈 Explainable Internal State Representation
 All internal states are quantifiable, monitorable, and interpretable through defined metrics and visualization interfaces.
 
-Safety Through Structural Constraints
+# 🛡 Safety Through Structural Constraints
 Built-in PMC (Psychological Margin of Coherence) status monitoring with violation detection and recovery mechanisms.
 
-Implementation Specifications
+# ⚙️ Implementation Specifications
 Mathematical Formalization: All components are mathematically defined with computable equations
 
 Language-Agnostic Core: Architecture implementable in any Turing-complete language

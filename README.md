@@ -50,7 +50,7 @@ T: Time (PAST|PRESENT|FUTURE) - Temporal orientation
 
 V: Vector (SELF|OTHER|BIDIRECTIONAL) - Directionality
 
-# 🔄 Dynamic Resonance System
+## 🔄 Dynamic Resonance System
 ```python
 class KokoroResonanceVector:
     ER: float  # Emotional Resonance (0.0-3.0)
@@ -62,23 +62,23 @@ class KokoroResonanceVector:
     def TR(self) -> float:  # Total Resonance
         return ER + GR + SR + IHR
 ```
-# 🕸 Connective Integrity Matrix
+## 🕸 Connective Integrity Matrix
 5×5 symmetric matrix quantifying inter-component coupling strength between emotional, cognitive, and volitional subsystems.
 
 ## 🎯 Novel Technical Contributions
-# 🔁 Bidirectional Emotion-Cognition Modulation
+### 🔁 Bidirectional Emotion-Cognition Modulation
 Emotional states dynamically influence cognitive processing through mathematically defined transformation functions, while cognitive states reciprocally modulate emotional interpretation.
 
-# ⏰ Temporal Context Integration
+### ⏰ Temporal Context Integration
 Native support for past-oriented reflection, present-oriented engagement, and future-oriented planning through temporal axis parameterization.
 
-# 📈 Explainable Internal State Representation
+### 📈 Explainable Internal State Representation
 All internal states are quantifiable, monitorable, and interpretable through defined metrics and visualization interfaces.
 
-# 🛡 Safety Through Structural Constraints
+### 🛡 Safety Through Structural Constraints
 Built-in PMC (Psychological Margin of Coherence) status monitoring with violation detection and recovery mechanisms.
 
-# ⚙️ Implementation Specifications
+### ⚙️ Implementation Specifications
 Mathematical Formalization: All components are mathematically defined with computable equations
 
 Language-Agnostic Core: Architecture implementable in any Turing-complete language

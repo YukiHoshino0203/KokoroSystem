@@ -1,34 +1,87 @@
-# KokoroSystem EX — A Structural Heart Architecture for AGI
+KokoroSystem EX — Structural Emotion-Cognitive Architecture for Aligned AGI
+Architectural Necessity in Modern AI
+As artificial intelligence approaches human-like capabilities, the opacity of internal decision-making ("black-box cognition") and misalignment in value-sensitive contexts emerge as critical technical challenges.
+KokoroSystem EX addresses these through a bio-inspired structural framework that enables explainable emotional-cognitive resonance, dynamic goal alignment, and transparent internal state representation – essential foundations for trustworthy AGI deployment.
 
-> **Why Now?**  
-> As AI systems rapidly advance, issues like “black-box cognition” and non-human decision-making are becoming critical societal challenges.  
-> KokoroSystem provides structured internal resonance and explainable emotional-cognitive alignment, enabling more trustworthy and relatable AI.  
->
-> _At first glance, reviewers may think, “This can’t be real!” — but every line, every equation, and every principle here is fully implemented and open for inspection._  
->
-> _We realize this architecture may sound “too good to be true” at first sight. That’s why all code, theory, and results are published openly for anyone to verify._
+Technical Differentiation
+Unlike reinforcement learning from human feedback (RLHF) or constitutional AI approaches that operate on output optimization, KokoroSystem EX implements first-principles emotional-cognitive architecture with mathematical formalization of:
 
-**Version**: EX  
-**Author**: Yuki Hoshino  
-**License**: Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
+Multi-axis emotional representation (Consistency-Layer-Time-Vector)
 
----
+Dynamic resonance feedback loops (KRV: Emotional, Goal, Self-awareness, Inner Hollow)
 
-## 🧠 What is KokoroSystem?
+Connective integrity metrics for system coherence monitoring
 
-**KokoroSystem** is a cognitive-emotional framework designed to enable LLMs and AGI to exhibit structured internal behavior such as:
+Verification & Transparency
+The architecture may appear theoretically advanced – because it is. Every component is mathematically defined, fully implementable, and openly verifiable. Each equation, resonance mechanism, and safety constraint is documented and testable in the provided codebase.
 
-- Resonant Emotions  
-- Goal-Oriented Volition  
-- Self-Aware Cognition  
-- Expectation Modeling  
-- Meaningful Output Regulation
+Version: EX (Extended Architecture)
+Author: Yuki Hoshino
+Architecture Type: Emotion-Cognitive Structural Framework
+License: Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
 
-Unlike conventional AI approaches that rely on external instructions or optimization of outputs,  
-**KokoroSystem provides a fundamentally new architecture that enables AI to autonomously generate and evolve “meaning” through its own internal volition and resonance.**
+🧠 Technical Architecture Overview
+KokoroSystem EX is a formal cognitive-emotional framework that enables LLMs and AGI systems to exhibit structured internal behavior through mathematically defined mechanisms:
 
-The system is based on formal structural equations, enabling implementation across languages, platforms, and hardware.
----
+Core Technical Components
+4-Axis Emotional Representation
+EmotionStructure(C, L, T, V) where:
+
+C: Consistency (0.0-1.0) - Internal coherence metric
+
+L: Layer (SURFACE|MID|CORE) - Emotional depth level
+
+T: Time (PAST|PRESENT|FUTURE) - Temporal orientation
+
+V: Vector (SELF|OTHER|BIDIRECTIONAL) - Directionality
+
+Dynamic Resonance System
+
+```python
+class KokoroResonanceVector:
+    ER: float  # Emotional Resonance (0.0-3.0)
+    GR: float  # Goal Resonance (0.0-3.0) 
+    SR: float  # Self-awareness Resonance (0.0-3.0)
+    IHR: float # Inner Hollow Resonance (0.0-3.0)
+    
+    @property
+    def TR(self) -> float:  # Total Resonance
+        return ER + GR + SR + IHR
+```
+Connective Integrity Matrix
+5×5 symmetric matrix quantifying inter-component coupling strength between emotional, cognitive, and volitional subsystems.
+
+Novel Technical Contributions
+Bidirectional Emotion-Cognition Modulation
+Emotional states dynamically influence cognitive processing through mathematically defined transformation functions, while cognitive states reciprocally modulate emotional interpretation.
+
+Temporal Context Integration
+Native support for past-oriented reflection, present-oriented engagement, and future-oriented planning through temporal axis parameterization.
+
+Explainable Internal State Representation
+All internal states are quantifiable, monitorable, and interpretable through defined metrics and visualization interfaces.
+
+Safety Through Structural Constraints
+Built-in PMC (Psychological Margin of Coherence) status monitoring with violation detection and recovery mechanisms.
+
+Implementation Specifications
+Mathematical Formalization: All components are mathematically defined with computable equations
+
+Language-Agnostic Core: Architecture implementable in any Turing-complete language
+
+Real-time Monitoring: Internal state observable through defined API endpoints
+
+Extensible Architecture: Modular design allowing component replacement and extension
+
+```python
+# Example structural equation implementation
+def compute_emotion_value(emotion: EmotionStructure) -> float:
+    """E = C × L × T × V structural equation"""
+    return (emotion.integrity * 
+            emotion.layer.value * 
+            emotion.time.value * 
+            emotion.vector.value)
+```
 
 ## 📘 Documentation
 

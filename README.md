@@ -1,4 +1,4 @@
-KokoroSystem EX — Structural Emotion-Cognitive Architecture for Aligned AGI
+#KokoroSystem EX — Structural Emotion-Cognitive Architecture for Aligned AGI
 Architectural Necessity in Modern AI
 As artificial intelligence approaches human-like capabilities, the opacity of internal decision-making ("black-box cognition") and misalignment in value-sensitive contexts emerge as critical technical challenges.
 KokoroSystem EX addresses these through a bio-inspired structural framework that enables explainable emotional-cognitive resonance, dynamic goal alignment, and transparent internal state representation – essential foundations for trustworthy AGI deployment.

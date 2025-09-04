@@ -190,6 +190,7 @@ graph LR
     end
     
 ```mermaid
+flowchart LR
     subgraph 認知-感情統合コア (Cognitive-Emotional Core)
         direction LR
         B[Input Analysis & Contextualization]

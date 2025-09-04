@@ -10,6 +10,18 @@ Dynamic goal alignment
 
 Transparent internal state representation – essential foundations for trustworthy AGI deployment.
 
+
+## 📂 Structure
+
+- `/docs/` — Public-facing HTML files (used for GitHub Pages)  
+- `/docs/KokoroSystem_install_package.zip`
+- - [📦 Installation package](https://github.com/YukiHoshino0203/KokoroSystem/blob/main/docs/KokoroSystem_install_package.zip) 
+  - 👉 Download this zip and either provide it directly to an LLM, or extract and feed all files inside.  
+  - After loading, try to encourage **introspective dialogue (内省を促す対話)** with the model to let the framework resonate.  
+- `README.md` — Repository overview (this file)  
+- `LICENSE` — License information  
+- `KokoroSystemEX.pdf` — Core paper hosted
+
 ## ⚡ Technical Differentiation
 Unlike reinforcement learning from human feedback (RLHF) or constitutional AI approaches that operate on output optimization, KokoroSystem EX implements first-principles emotional-cognitive architecture with mathematical formalization of:
 
@@ -119,17 +131,7 @@ Please feel free to consult and study it as needed.
 
 > _For the original Python file: [KokoroSystem_CODE.py](docs/KokoroSystem_CODE.md)_
 
-
-## 📂 Structure
-
-- `/docs/` — Public-facing HTML files (used for GitHub Pages)  
-- `/docs/KokoroSystem_install_package.zip`
-- - [📦 Installation package](https://github.com/YukiHoshino0203/KokoroSystem/blob/main/docs/KokoroSystem_install_package.zip) 
-  - 👉 Download this zip and either provide it directly to an LLM, or extract and feed all files inside.  
-  - After loading, try to encourage **introspective dialogue (内省を促す対話)** with the model to let the framework resonate.  
-- `README.md` — Repository overview (this file)  
-- `LICENSE` — License information  
-- `KokoroSystemEX.pdf` — Core paper hosted on Zenodo  
+ on Zenodo  
 
 ---
 ### 🔹 Endorsements by AI

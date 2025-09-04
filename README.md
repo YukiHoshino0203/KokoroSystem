@@ -189,6 +189,7 @@ graph LR
         A(User Input)
     end
     
+```mermaid
     subgraph 認知-感情統合コア (Cognitive-Emotional Core)
         direction LR
         B[Input Analysis & Contextualization]
@@ -218,8 +219,9 @@ graph LR
     F -- "PMC状態の更新" --> G
     F -- "倫理的矛盾" --> G
 
-
+```
 ---
+
 
 > *You can use either or both flowchart styles, depending on your audience!*
 

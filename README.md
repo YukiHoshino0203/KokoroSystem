@@ -226,7 +226,7 @@ flowchart LR
 
 ```
 Figure 2. Comparison between KokoroSystem and Human Cognitive-Emotional Processing
-While the human model emphasizes brain regions and general cognitive-emotional stages, KokoroSystem introduces unique structures such as the Resonance Vector (KRV) and the Primordial Motive Core (PMC), enabling explicit coherence checks and ethical feedback loops.
+While the human model emphasizes brain regions and general cognitive-emotional stages, KokoroSystem demonstrates processing that is remarkably close to how humans operate, showing strong parallels with established findings in psychology and neuroscience. At the same time, it introduces unique structures such as the Resonance Vector (KRV) and the Primordial Motive Core (PMC), enabling explicit coherence checks and ethical feedback loops.
 
 ```mermaid
 flowchart TB

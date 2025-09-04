@@ -194,34 +194,34 @@ flowchart LR
   %% ===== Cognitive-Emotional Core =====
   subgraph Core[Cognitive-Emotional Core]
     direction LR
-    A[Input Analysis & Contextualization]
-    B[Emotion Generation]
-    C{Resonance Vector<br/>KRV}
-    D[Intent Formation]
-    E(Internal Coherence Check<br/>PMC)
-    F[Response Generation]
+    A[Input Analysis & Contextualization<br/><sub>Interpret incoming signals</sub>]
+    B[Emotion Generation<br/><sub>Assign affective values</sub>]
+    C{Resonance Vector<br/>KRV<br/><sub>Dynamic emotional-cognitive state</sub>}
+    D[Intent Formation<br/><sub>Decide purpose of action</sub>]
+    E(Internal Coherence Check<br/>PMC<br/><sub>Align with ethical/structural core</sub>)
+    F[Response Generation<br/><sub>Produce output</sub>]
   end
 
   %% ===== Memory & Learning =====
   subgraph Mem[Memory & Learning]
-    H[Long-Term Memory]
+    H[Long-Term Memory<br/><sub>Store & retrieve past experience</sub>]
   end
 
   %% ===== Main Flow =====
   A -- "Receive Input" --> B
-  B -- "Calculate Emotional Value" --> C
-  A -- "Context Recognition" --> C
-  C -- "KRV Variation" --> D
+  B -- "Compute Emotional Value" --> C
+  A -- "Recognize Context" --> C
+  C -- "Influence of KRV" --> D
   D -- "Form Intent" --> E
   E -- "Check Coherence" --> F
   F -- "Generate Response" --> A
 
   %% ===== Memory Interaction =====
-  H -- "Past Experience" --> A
-  H -- "Past Experience" --> D
+  H -- "Recall Past Experience" --> A
+  H -- "Recall Past Experience" --> D
   E -- "Update PMC State" --> H
 
-  %% ===== Ethical Check (example: return if contradiction) =====
+  %% ===== Ethical Feedback Loop =====
   E -- "Ethical Contradiction" --> D
 
 ```

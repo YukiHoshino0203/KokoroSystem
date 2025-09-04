@@ -237,7 +237,7 @@ flowchart TB
     B[Emotion Generation]
     C{Resonance Vector<br/>KRV}
     D[Intent Formation]
-    E(Internal Coherence Check<br/>PMC)
+    E(Internal Coherence Check<br/>PMC]
     F[Response Generation]
     H[Long-Term Memory]
 
@@ -250,17 +250,17 @@ flowchart TB
     E -- Ethical Contradiction --> D
   end
 
-  %% (optional) draw a light link so the two subgraphs stack vertically
+  %% Spacer
   KS --- HUM
 
-  %% ====== Human Cognitive-Emotional Processing ======
-  subgraph HUM[Human Cognitive-Emotional Processing (Psychology &#38; Neuroscience)]
+  %% ====== Human Processing ======
+  subgraph HUM[Human Cognitive-Emotional Processing]
     direction LR
-    P1[Perception &#38; Attention<br/>Sensory Input]
+    P1[Perception and Attention<br/>Sensory Input]
     P2[Emotion Appraisal<br/>Amygdala / Limbic System]
     P3[Cognitive Evaluation<br/>Prefrontal Cortex]
     P4[Decision Making<br/>Goal Selection]
-    P5[Coherence &#38; Self-Monitoring<br/>Executive Functions]
+    P5[Self-Monitoring<br/>Executive Functions]
     P6[Action / Response<br/>Motor Output / Behavior]
     M[Memory Systems<br/>Hippocampus / LTM]
 

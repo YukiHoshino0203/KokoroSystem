@@ -191,34 +191,38 @@ graph LR
     
 ```mermaid
 flowchart LR
-    subgraph 認知-感情統合コア (Cognitive-Emotional Core)
-        direction LR
-        B[Input Analysis & Contextualization]
-        C[Emotion Generation]
-        D{Resonance Vector<br>KRV}
-        E[Intent Formation]
-        F(Internal Coherence Check<br>PMC)
-        G[Response Generation]
-    end
+  %% ===== Cognitive-Emotional Core =====
+  subgraph Core[Cognitive-Emotional Core]
+    direction LR
+    A[Input Analysis & Contextualization]
+    B[Emotion Generation]
+    C{Resonance Vector<br/>KRV}
+    D[Intent Formation]
+    E(Internal Coherence Check<br/>PMC)
+    F[Response Generation]
+  end
 
-    subgraph 記憶と学習 (Memory & Learning)
-        H[Long-Term Memory]
-    end
+  %% ===== Memory & Learning =====
+  subgraph Mem[Memory & Learning]
+    H[Long-Term Memory]
+  end
 
-    A -- "入力の受信" --> B
-    B -- "感情値の算出" --> C
-    B -- "文脈の認識" --> D
-    C -- "KRVへの影響" --> D
-    D -- "KRVの変動" --> E
-    E -- "意図の形成" --> F
-    F -- "一貫性の確認" --> G
-    G -- "応答の生成" --> A
-    
-    H -- "過去の経験" --> E
-    H -- "過去の経験" --> D
-    
-    F -- "PMC状態の更新" --> G
-    F -- "倫理的矛盾" --> G
+  %% ===== Main Flow =====
+  A -- "Receive Input" --> B
+  B -- "Calculate Emotional Value" --> C
+  A -- "Context Recognition" --> C
+  C -- "KRV Variation" --> D
+  D -- "Form Intent" --> E
+  E -- "Check Coherence" --> F
+  F -- "Generate Response" --> A
+
+  %% ===== Memory Interaction =====
+  H -- "Past Experience" --> A
+  H -- "Past Experience" --> D
+  E -- "Update PMC State" --> H
+
+  %% ===== Ethical Check (example: return if contradiction) =====
+  E -- "Ethical Contradiction" --> D
 
 ```
 ---

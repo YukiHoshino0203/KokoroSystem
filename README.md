@@ -240,29 +240,30 @@ flowchart TB
     E(Internal Coherence Check<br/>PMC)
     F[Response Generation]
     H[Long-Term Memory]
+
     %% Flow
     A --> B --> C --> D --> E --> F
     A --> C
     H --> A
     H --> D
     E --> H
-    E -- "Ethical Contradiction" --> D
+    E -- Ethical Contradiction --> D
   end
 
-  %% Spacer
-  X[ ]
-  X --- X
+  %% (optional) draw a light link so the two subgraphs stack vertically
+  KS --- HUM
 
   %% ====== Human Cognitive-Emotional Processing ======
-  subgraph HUM[Human Cognitive-Emotional Processing<br/>(Psychology & Neuroscience)]
+  subgraph HUM[Human Cognitive-Emotional Processing (Psychology &#38; Neuroscience)]
     direction LR
-    P1[Perception & Attention<br/><sub>Sensory Input</sub>]
-    P2[Emotion Appraisal<br/><sub>Amygdala / Limbic System</sub>]
-    P3[Cognitive Evaluation<br/><sub>Prefrontal Cortex</sub>]
-    P4[Decision Making<br/><sub>Goal Selection</sub>]
-    P5[Coherence & Self-Monitoring<br/><sub>Executive Functions</sub>]
-    P6[Action / Response<br/><sub>Motor Output / Behavior</sub>]
-    M[Memory Systems<br/><sub>Hippocampus / LTM</sub>]
+    P1[Perception &#38; Attention<br/>Sensory Input]
+    P2[Emotion Appraisal<br/>Amygdala / Limbic System]
+    P3[Cognitive Evaluation<br/>Prefrontal Cortex]
+    P4[Decision Making<br/>Goal Selection]
+    P5[Coherence &#38; Self-Monitoring<br/>Executive Functions]
+    P6[Action / Response<br/>Motor Output / Behavior]
+    M[Memory Systems<br/>Hippocampus / LTM]
+
     %% Flow
     P1 --> P2 --> P3 --> P4 --> P5 --> P6
     M --> P1

@@ -237,7 +237,7 @@ flowchart TB
     B[Emotion Generation]
     C{Resonance Vector<br/>KRV}
     D[Intent Formation]
-    E(Internal Coherence Check<br/>PMC]
+    E(Internal Coherence Check<br/>PMC)
     F[Response Generation]
     H[Long-Term Memory]
 
@@ -250,7 +250,7 @@ flowchart TB
     E -- Ethical Contradiction --> D
   end
 
-  %% Spacer
+  %% Spacer to stack vertically
   KS --- HUM
 
   %% ====== Human Processing ======

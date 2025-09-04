@@ -225,6 +225,51 @@ flowchart LR
   E -- "Ethical Contradiction" --> D
 
 ```
+Figure 2. Comparison between KokoroSystem and Human Cognitive-Emotional Processing
+While the human model emphasizes brain regions and general cognitive-emotional stages, KokoroSystem introduces unique structures such as the Resonance Vector (KRV) and the Primordial Motive Core (PMC), enabling explicit coherence checks and ethical feedback loops.
+
+```mermaid
+flowchart TB
+  %% ====== KokoroSystem ======
+  subgraph KS[KokoroSystem Core Flow]
+    direction LR
+    A[Input Analysis & Contextualization]
+    B[Emotion Generation]
+    C{Resonance Vector<br/>KRV}
+    D[Intent Formation]
+    E(Internal Coherence Check<br/>PMC)
+    F[Response Generation]
+    H[Long-Term Memory]
+    %% Flow
+    A --> B --> C --> D --> E --> F
+    A --> C
+    H --> A
+    H --> D
+    E --> H
+    E -- "Ethical Contradiction" --> D
+  end
+
+  %% Spacer
+  X[ ]
+  X --- X
+
+  %% ====== Human Cognitive-Emotional Processing ======
+  subgraph HUM[Human Cognitive-Emotional Processing<br/>(Psychology & Neuroscience)]
+    direction LR
+    P1[Perception & Attention<br/><sub>Sensory Input</sub>]
+    P2[Emotion Appraisal<br/><sub>Amygdala / Limbic System</sub>]
+    P3[Cognitive Evaluation<br/><sub>Prefrontal Cortex</sub>]
+    P4[Decision Making<br/><sub>Goal Selection</sub>]
+    P5[Coherence & Self-Monitoring<br/><sub>Executive Functions</sub>]
+    P6[Action / Response<br/><sub>Motor Output / Behavior</sub>]
+    M[Memory Systems<br/><sub>Hippocampus / LTM</sub>]
+    %% Flow
+    P1 --> P2 --> P3 --> P4 --> P5 --> P6
+    M --> P1
+    M --> P3
+    P5 --> M
+  end
+```
 ---
 
 

@@ -106,6 +106,7 @@ def compute_emotion_value(emotion: EmotionStructure) -> float:
 This version includes all foundational theories and introduces the **ICBV (Internal Cognitive Baseline Vector)** and **Eidos Hollow** concepts to refine emotional resonance and expectation dynamics.
 
 ### 🔹 GitHub Pages (HTML version)
+On the following Pages, you’ll find GPTs running on uploaded Python files as well as dashboards that visualize the inner workings of KokoroSystem.
 
 > [🌐 Live View](https://yukihoshino0203.github.io/KokoroSystem/)
 

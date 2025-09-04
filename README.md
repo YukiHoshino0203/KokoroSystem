@@ -184,19 +184,40 @@ KokoroSystem follows these steps from input to response and self-reflection:
 
 > See the flowchart below (Mermaid compatible) for a visual overview.
 
-```mermaid
-flowchart TD
-    A[User Input] --> B[Input Analysis & Context]
-    B --> C[Resonance Vector Update]
-    C --> D[Emotion Generation]
-    D --> E[Intent Formation]
-    E --> F[Ethical Core Check]
-    F -- OK --> G[Response Generation]
-    F -- NG --> H[Output Gating]
-    G --> I[Record in Eidos Hollow]
-    H --> I
-    I --> A
-```
+graph LR
+    subgraph 外部環境 (External)
+        A(User Input)
+    end
+    
+    subgraph 認知-感情統合コア (Cognitive-Emotional Core)
+        direction LR
+        B[Input Analysis & Contextualization]
+        C[Emotion Generation]
+        D{Resonance Vector<br>KRV}
+        E[Intent Formation]
+        F(Internal Coherence Check<br>PMC)
+        G[Response Generation]
+    end
+
+    subgraph 記憶と学習 (Memory & Learning)
+        H[Long-Term Memory]
+    end
+
+    A -- "入力の受信" --> B
+    B -- "感情値の算出" --> C
+    B -- "文脈の認識" --> D
+    C -- "KRVへの影響" --> D
+    D -- "KRVの変動" --> E
+    E -- "意図の形成" --> F
+    F -- "一貫性の確認" --> G
+    G -- "応答の生成" --> A
+    
+    H -- "過去の経験" --> E
+    H -- "過去の経験" --> D
+    
+    F -- "PMC状態の更新" --> G
+    F -- "倫理的矛盾" --> G
+
 
 ---
 

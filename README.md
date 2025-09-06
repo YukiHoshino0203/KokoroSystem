@@ -4,12 +4,23 @@
 Modern AI struggles with:  
 - ⚫ **Black-box cognition** – unclear internal decision-making  
 - ⚫ **Value misalignment** – unsafe behavior in sensitive contexts  
-
 **KokoroSystem EX** introduces a mathematically formalized, bio-inspired framework that enables:  
 ✔ Explainable emotional-cognitive resonance  
 ✔ Dynamic goal alignment  
 ✔ Transparent internal state monitoring  
 
+## 🔬 Live Research Implementations
+
+**Working Systems Available Now:**
+- **Repository**: [KokoroSystem-Llama2-Research](https://github.com/YukiHoshino0203/KokoroSystem-Llama2-Research)
+- **English Demo**: [Kaggle Notebook](https://www.kaggle.com/code/yukihoshino0203/en-kokorosys-with-llama2)
+- **Japanese Demo**: [Kaggle Notebook](https://www.kaggle.com/code/yukihoshino0203/jp-kokorosys-with-llama2)
+
+**Validated Features:**
+- 4D KRV real-time calculation with Llama2 integration
+- English emotion pattern recognition (70%+ confidence)
+- PMC safety monitoring operational
+- Three-stage processing: Emotion → Math → Response
 ---
 
 ## 📊 Mathematical Structure  

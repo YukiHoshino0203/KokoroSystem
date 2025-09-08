@@ -40,6 +40,8 @@ KokoroSystem EX provides this missing architecture—**giving language to the wo
 - Dynamic response strategy generation based on `TR` (Total Resonance) and `PMC` status.
 - Three-stage pipeline: `LLM Semantic Extraction` → `Structural Math Processing (Kokoro)` → `LLM Contextual Generation`.
 
+*Note: These demos are designed to demonstrate the validity of the mathematical framework. 
+They are not intended for direct practical use, but rather to showcase research value and potential.*
 ---
 
 ## 📊 Foundational Theories

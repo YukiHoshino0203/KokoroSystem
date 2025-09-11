@@ -28,7 +28,7 @@ KokoroSystem EX provides this missing architecture—**giving language to the wo
 
 ---
 
-# ⚠️Implementation Transparency
+## ⚠️Implementation Transparency
 
 As a theoretical researcher without specialized programming expertise, all code in this repository was generated through AI-assisted vibe coding.  
 This does not diminish the research value in any way.  

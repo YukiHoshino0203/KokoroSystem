@@ -28,6 +28,27 @@ KokoroSystem EX provides this missing architecture—**giving language to the wo
 
 ---
 
+# ⚠️Implementation Transparency
+
+As a theoretical researcher without specialized programming expertise, all code in this repository was generated through AI-assisted vibe coding.  
+This does not diminish the research value in any way.  
+The essence of KokoroSystem lies not in implementation technique, but in its mathematical theoretical framework.  
+
+What matters is:
+- The theoretical foundation for modeling emotion as 4-dimensional structural space  
+- The mathematical basis for dynamic state management through KRV  
+- The conceptual design of ethical decision-making mechanisms via PMC  
+
+Implementation serves solely as a means to demonstrate that these theories actually function.  
+The originality and validity of the theory should be evaluated independently of coding skills.  
+
+In the modern era, leveraging AI tools liberates theoretical researchers from technical implementation constraints, allowing pure focus on conceptual innovation.  
+This represents methodological progress that clarifies rather than obscures the essential theoretical value.  
+
+This theoretical framework deserves serious global scrutiny because it demonstrates that AI emotional understanding and volition-like phenomena can be expressed mathematically through structural resonance rather than statistical approximation.
+
+---
+
 ## 🔬 Live Research Implementations
 
 **Working Systems Available Now:**

@@ -1,9 +1,9 @@
 # KokoroSystem EX — A Theoretical Framework for Emotion-Integrated AI
 
 **Formula Flow PDF**: [docs/Kokoro_Formula_Flow.pdf](docs/Kokoro_Formula_Flow.pdf)  
-*This document consolidates all mathematical formulas into a single reference.  
-Since the repository focuses primarily on theoretical explanations, including all formulas directly in the README would make it overly long.  
-Therefore, this dedicated PDF is provided, which also makes it easier for AI-based summarization and analysis tools to process the material.*
+*This document consolidates all mathematical formulas and transformation flows into a single reference.  
+The repository itself emphasizes theoretical explanations, but including all equations directly in the README would make it overly long.  
+Therefore, we provide this dedicated PDF, which also makes it easier for AI-based summarization and analysis tools to process the material.*  
 
 ## Research Status & Succession Notice
 

@@ -5,6 +5,9 @@
 The repository itself emphasizes theoretical explanations, but including all equations directly in the README would make it overly long.  
 Therefore, we provide this dedicated PDF, which also makes it easier for AI-based summarization and analysis tools to process the material.*  
 
+**KokoroSystem Implementation**: [docs/KokoroSystem_CODE.md](docs/KokoroSystem_CODE.md) 
+*This document contains the complete Python implementation of the KokoroSystem EX, demonstrating the practical operation of emotion detection, KRV (Kokoro Resonance Vector) dynamics, and internal consistency mechanisms. Note that this implementation focuses purely on the KokoroSystem's core functionality and does not include integration details with Transformer architecture - it serves as a standalone reference for understanding how the emotional processing components operate independently.*
+
 ## Research Status & Succession Notice
 
 **This repository represents theoretical research that has reached the limits of individual development.** The work contained here focuses on **theoretical innovation** rather than technical implementation. All code serves solely to demonstrate the mathematical feasibility of the proposed frameworks.

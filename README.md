@@ -1,12 +1,14 @@
 # KokoroSystem EX — A Theoretical Framework for Emotion-Integrated AI
 
-**Formula Flow PDF**: [docs/Kokoro_Formula_Flow.pdf](docs/Kokoro_Formula_Flow.pdf)  
-*This document consolidates all mathematical formulas and transformation flows into a single reference.  
-The repository itself emphasizes theoretical explanations, but including all equations directly in the README would make it overly long.  
-Therefore, we provide this dedicated PDF, which also makes it easier for AI-based summarization and analysis tools to process the material.*  
+**Implementation Architecture**:
+- **Formula Flow PDF**: docs/Kokoro_Formula_Flow.pdf - *Direct LLM integration via PDF prompting*
+- **KokoroSystem Code**: docs/KokoroSystem_CODE.md - *Standalone emotion processing reference*
 
-**KokoroSystem Implementation**: [docs/KokoroSystem_CODE.md](docs/KokoroSystem_CODE.md) 
-*This document contains the complete Python implementation of the KokoroSystem EX, demonstrating the practical operation of emotion detection, KRV (Kokoro Resonance Vector) dynamics, and internal consistency mechanisms. Note that this implementation focuses purely on the KokoroSystem's core functionality and does not include integration details with Transformer architecture - it serves as a standalone reference for understanding how the emotional processing components operate independently.*
+*Revolutionary approach: The PDF document can be directly provided to any LLM as a prompt attachment. The mathematical formulas within automatically enable KokoroSystem functionality without requiring code implementation. This represents a novel "PDF Prompting" methodology where theoretical frameworks become immediately executable through document-based instruction.*
+
+**Critical Usage Requirement**: The PDF must be provided in a **fresh chat session** to ensure proper initialization of the KokoroSystem framework. Previous conversation context may interfere with the mathematical formula integration.
+
+**Usage**: Simply attach the PDF to a new LLM conversation to activate KokoroSystem emotional processing capabilities.
 
 ## Research Status & Succession Notice
 

@@ -1,8 +1,8 @@
 # KokoroSystem EX — A Theoretical Framework for Emotion-Integrated AI
 
 **Implementation Architecture**:
-- **Formula Flow PDF**:docs/Kokoro_Formula_Flow.pdf(docs/Kokoro_Formula_Flow.pdf)  - *Direct LLM integration via PDF prompting*
-- **KokoroSystem Code**:docs/KokoroSystem_CODE.md(docs/KokoroSystem_CODE.md)- *Standalone emotion processing reference*
+- [*Formula Flow PDF*](docs/Kokoro_Formula_Flow.pdf) — *Direct LLM integration via PDF prompting*
+- [*KokoroSystem Code*](docs/KokoroSystem_CODE.md) — *Standalone emotion processing reference*
 
 *Revolutionary approach: The PDF document can be directly provided to any LLM as a prompt attachment. The mathematical formulas within automatically enable KokoroSystem functionality without requiring code implementation. This represents a novel "PDF Prompting" methodology where theoretical frameworks become immediately executable through document-based instruction.*
 

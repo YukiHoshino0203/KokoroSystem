@@ -1,5 +1,3 @@
-```python
-
 import numpy as np
 from typing import Dict, List, Tuple, Optional, Callable, Any
 import math
@@ -693,5 +691,3 @@ def demo_enhanced_kokoro_system():
 
 if __name__ == "__main__":
     results = demo_enhanced_kokoro_system()
-
-```

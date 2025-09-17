@@ -10,11 +10,20 @@
 
 **Usage**: Simply attach the PDF to a new LLM conversation to activate KokoroSystem emotional processing capabilities.
 
-## Research Status & Succession Notice
+## Research Status & Succession Outlook
 
-**This repository represents theoretical research that has reached the limits of individual development.** The work contained here focuses on **theoretical innovation** rather than technical implementation. All code serves solely to demonstrate the mathematical feasibility of the proposed frameworks.
+**This repository represents theoretical research that has reached the natural limits of individual development.**  
+The focus is on **theoretical innovation** rather than technical implementation, with code included only as proof-of-concept demonstrations.
 
-**Research Succession Required:** The theoretical frameworks presented here require institutional resources, interdisciplinary expertise, and empirical validation that exceed individual researcher capabilities. Academic collaboration is urgently needed to advance these concepts beyond their current theoretical stage.
+**Research Succession Encouraged:**  
+The frameworks presented here would benefit greatly from institutional collaboration, interdisciplinary expertise,  
+and empirical validation. While they can stand as independent theoretical contributions, their further advancement  
+will be most effective through academic and research team involvement.
+
+**Rationale:**  
+- Institutional resources are required for large-scale validation  
+- Interdisciplinary perspectives can refine and strengthen the theory  
+- Timely collaboration is recommended to align with rapid progress in AI and neuroscience fields
 
 ---
 
@@ -140,18 +149,19 @@ The value lies in the theoretical frameworks themselves, not implementation tech
 
 ## Call for Academic Collaboration
 
-**This theoretical framework urgently requires research succession to prevent theoretical obsolescence.**
+**This theoretical framework would benefit greatly from collaborative succession to avoid theoretical stagnation.**
 
-**Needed Collaborations:**
+**Encouraged Collaborations:**
 - Neuroscience research teams for empirical validation
 - Primate research institutes for consciousness experiments
 - AI research institutions for implementation verification
 - Philosophy of mind scholars for theoretical refinement
 
-**Contact for Research Succession:**
+**Contact for Collaboration:**
 neon011hoshino [at] gmail [dot] com
 
-**Timeline Criticality:** Without institutional succession within 12 months, these frameworks risk theoretical obsolescence as the field advances.
+**Recommended Timeline:**  
+Timely collaboration is recommended to ensure these frameworks remain aligned with ongoing advances in AI and neuroscience.
 
 ---
 

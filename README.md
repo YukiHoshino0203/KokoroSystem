@@ -7,8 +7,6 @@ Therefore, we provide this dedicated PDF, which also makes it easier for AI-base
 
 ## Research Status & Succession Notice
 
-## Research Status & Succession Notice
-
 **This repository represents theoretical research that has reached the limits of individual development.** The work contained here focuses on **theoretical innovation** rather than technical implementation. All code serves solely to demonstrate the mathematical feasibility of the proposed frameworks.
 
 **Research Succession Required:** The theoretical frameworks presented here require institutional resources, interdisciplinary expertise, and empirical validation that exceed individual researcher capabilities. Academic collaboration is urgently needed to advance these concepts beyond their current theoretical stage.

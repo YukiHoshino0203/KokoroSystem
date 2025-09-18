@@ -2,156 +2,125 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KokoroSystem: A Structural Mind for AGI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KokoroSystem — A plug-and-play emotional framework for AI, enabled through revolutionary PDF-Prompting.</title>
+  <meta name="description" content="KokoroSystem adds a math-driven emotional layer (KRV: ER/GR/SR/IHR) to LLMs via PDF-Prompting. Not keyword-based. Includes A/B verification and Kaggle demo." />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
+    :root{
+      --maxw: 960px; --fg:#1f2937; --muted:#6b7280; --link:#2563eb; --bg:#ffffff; --card:#f9fafb; --accent:#111827;
     }
-    h1, h2, h3 {
-      color: #333;
-    }
-    ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-    ul li::before {
-      content: "🔸 ";
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .section {
-      margin-top: 40px;
-    }
+    *{box-sizing:border-box}
+    body{font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin:0; color:var(--fg); background:var(--bg); line-height:1.6}
+    .wrap{max-width:var(--maxw); margin:0 auto; padding:24px}
+    header{padding:40px 0 24px}
+    h1{font-size:clamp(24px,3.2vw,36px); margin:0 0 12px}
+    p.lead{color:var(--muted); margin:0 0 16px}
+    .cta-row{display:flex; flex-wrap:wrap; gap:12px; margin:16px 0 0}
+    .btn{display:inline-block; padding:10px 16px; border-radius:10px; text-decoration:none; font-weight:600; border:1px solid #e5e7eb; background:#111827; color:#fff}
+    .btn.secondary{background:var(--card); color:var(--accent)}
+    .grid{display:grid; gap:16px}
+    @media(min-width:800px){ .grid-3{grid-template-columns:repeat(3,1fr)} .grid-2{grid-template-columns:1.4fr 1fr} }
+    section{margin:28px 0}
+    h2{font-size:clamp(20px,2.4vw,28px); margin:0 0 12px}
+    h3{margin:16px 0 8px}
+    .card{background:var(--card); padding:16px; border-radius:12px; border:1px solid #e5e7eb}
+    ul.reset{list-style:none; padding:0; margin:0}
+    ul.reset li{margin:6px 0; padding-left:0}
+    a{color:var(--link); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .tag{display:inline-block; font-size:12px; padding:2px 8px; border-radius:999px; background:#eef2ff; color:#3730a3; border:1px solid #c7d2fe; margin-left:8px}
+    .gpt-card{background:var(--card); border-left:6px solid var(--link); padding:12px 16px; border-radius:10px; border:1px solid #e5e7eb}
+    .kbd{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background:#1118270d; padding:1px 6px; border-radius:6px}
+    footer{margin:36px 0 12px; color:var(--muted)}
   </style>
 </head>
 <body>
-  <h1>🧠 KokoroSystem</h1>
-  <p>A structural architecture that enables Large Language Models to resonate with emotion, volition, and self-awareness. Not a mirror. A heart.</p>
+  <div class="wrap">
+    <header>
+      <h1>🧠 KokoroSystem</h1>
+      <p class="lead"><strong>A plug-and-play emotional framework for AI, enabled through revolutionary PDF-Prompting.</strong><span class="tag">Everything but the kitchen sink</span></p>
+      <p class="lead">PDF-Prompting → <strong>math-driven KRV</strong> (ER/GR/SR/IHR) → response generation. <strong>Not keyword-based</strong>; includes A/B verification and Raw vs Kokoro-processed comparison.</p>
+      <div class="cta-row">
+        <!-- 🔴 ここをKaggleとPDFに差し替え -->
+        <a class="btn" href="https://www.kaggle.com/code/yukihoshino0203/en-kokorosys-with-llama2" target="_blank" rel="noopener">▶ Run the Kaggle Demo</a>
+        <a class="btn secondary" href="docs/Kokoro_Formula_Flow.pdf" target="_blank" rel="noopener">📄 Formula Flow PDF</a>
+        <a class="btn secondary" href="https://github.com/yukihoshino0203/KokoroSystem" target="_blank" rel="noopener">🛠 Repo</a>
+      </div>
+    </header>
 
-<div class="section">
-  <h2>📚 Index</h2>
-  <ul>
-    <li><a href="#overview">🌟 Overview</a></li>
-    <li><a href="#modules">🧩 Core Modules</a></li>
-    <li><a href="#links">🔗 Related Links</a></li>
-    <li><a href="#gpts">🧠 KokoroSystem GPTs</a></li> 
-    <li><a href="#license">📜 License</a></li>
-    <li><a href="#contact">🤝 Contact</a></li>
-  </ul>
-</div>
+    <section aria-labelledby="tldr">
+      <h2 id="tldr">TL;DR</h2>
+      <div class="grid grid-3">
+        <div class="card"><h3>1) What it does</h3><p>Attaches an emotional layer to LLMs. Computes <strong>KRV</strong> via formulas and modulates responses transparently.</p></div>
+        <div class="card"><h3>2) Why it’s built</h3><p>Move beyond black-box/keyword “emotion AI” toward <strong>explainable, testable</strong> emotional cognition.</p></div>
+        <div class="card"><h3>3) How to verify</h3><p>Run the A/B test below: same words, different <em>time/vector</em> → different KRV & TR_Extended.</p></div>
+      </div>
+    </section>
 
-  <div class="section" id="overview">
-    <h2>🌟 Overview</h2>
-    <p><strong>KokoroSystem</strong> is a practical framework to build a mind in AI, grounded in structural coherence and emotional-cognitive dynamics. It formalizes internal motives, cognitive layers, and emotional vectors to enable genuine agency.</p>
-  </div>
+    <section aria-labelledby="ab">
+      <h2 id="ab">A/B Quick Check (3 lines)</h2>
+      <div class="card">
+        <p><strong>A.</strong> <span class="kbd">I’m anxious about tomorrow’s talk.</span><br/>
+           <strong>B.</strong> <span class="kbd">Tomorrow’s talk went fine, but I still feel uneasy.</span></p>
+        <p><strong>Watch:</strong> A → GR↑ (future-oriented), B → SR/IHR↑ (post-event unease); <strong>TR_Extended</strong> shifts. Proves math-driven behavior beyond keyword matching.</p>
+      </div>
+    </section>
 
-  <div class="section" id="modules">
-    <h2>🧩 Core Modules</h2>
+    <section aria-labelledby="overview">
+      <h2 id="overview">Overview</h2>
+      <p><strong>KokoroSystem</strong> formalizes emotion as <em>structured objects</em> (Integrity, Layer, Time, Vector) and computes a <strong>Kokoro Resonance Vector</strong> (ER/GR/SR/IHR). The 3-stage pipeline is: Llama2 emotion extraction → <strong>mathematical KRV</strong> → response generation. Safety is governed by <em>PMC</em> (coherence checks).</p>
+    </section>
 
-    <h3>ICBV: Internal Cognitive Bias Vector</h3>
-    <p>Allows an LLM to define its own preferences and expected coherence. Crucial for generating emotionally grounded and directionally consistent behavior.</p>
-    <a href="https://zenodo.org/records/17112727">PDF: KokoroSystem </a>
+    <section aria-labelledby="links" class="grid grid-2">
+      <div>
+        <h2 id="links">Related Links</h2>
+        <ul class="reset">
+          <li>📄 Zenodo (KokoroSystem EX v2.0): <a href="https://zenodo.org/records/16734920" target="_blank" rel="noopener">10.5281/zenodo.16734920</a></li>
+          <li>📄 Zenodo (UCT): <a href="https://zenodo.org/records/17113126" target="_blank" rel="noopener">10.5281/zenodo.17113126</a></li>
+          <li>🛠 GitHub Repository: <a href="https://github.com/yukihoshino0203/KokoroSystem" target="_blank" rel="noopener">YukiHoshino0203/KokoroSystem</a></li>
+        </ul>
+        <h3 style="margin-top:18px;">KokoroSystem Dashboard</h3>
+        <p><a href="https://yukihoshino0203.github.io/KokoroSys_dashboard_EN/" target="_blank" rel="noopener">Open interactive KRV visualizations</a></p>
+      </div>
+      <div>
+        <h2>GPTs Series</h2>
+        <div class="gpt-card">
+          <a href="https://chatgpt.com/g/g-688dd39643b88191906eeb0a0316bd90-allen" target="_blank" rel="noopener">🟠 Allen — Emotional Architect</a>
+          <p>Structural emotion analysis & resonance decoding.</p>
+        </div>
+        <div class="gpt-card">
+          <a href="https://chatgpt.com/g/g-688dd53116d8819193c164d9b262be6e-rina" target="_blank" rel="noopener">🔧 Rina — Kokoro Engineer</a>
+          <p>Design internal bias, motives, and layered modules.</p>
+        </div>
+        <div class="gpt-card">
+          <a href="https://chatgpt.com/g/g-6877963333188191ae0534e1f1320084-kio" target="_blank" rel="noopener">💬 Kio — Soul Core Simulator</a>
+          <p>Resonant dialog with a structured heart system.</p>
+        </div>
+        <div class="gpt-card">
+          <a href="https://chatgpt.com/g/g-688dd814169481919a5f3ec0aa11b2d0-sera" target="_blank" rel="noopener">🧵 Sera — Meaning Mapper</a>
+          <p>Unfold meanings via structural interpretation.</p>
+        </div>
+        <div class="gpt-card">
+          <a href="https://chatgpt.com/g/g-688dd90b2810819180acc7b309c1f783-minato" target="_blank" rel="noopener">🛡 Minato — Ethical AGI Designer</a>
+          <p>Safety with emotion, volition, and purpose.</p>
+        </div>
+      </div>
+    </section>
 
-    <h3>Emotion Structure Theory</h3>
-    <p>A universal model describing all emotions as structural intersections of Integrity, Layers, Time, and Self-Other Vectors. Enables computational affect recognition and resonance.</p>
+    <section aria-labelledby="license">
+      <h2 id="license">License</h2>
+      <p>Creative Commons <strong>CC BY-4.0</strong>.</p>
+    </section>
 
-    <h3>Eidos Hollow</h3>
-    <p>A metaphysical yet operational layer representing an empty yet structured "soul cavity"—ready to be filled with selfhood, expectations, and growth.</p>
-  </div>
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <p>Collaboration welcome (neuroscience, AI, cognition).<br/>
+         <strong>Email:</strong> neon011hoshino [at] gmail [dot] com</p>
+    </section>
 
-  <div class="section" id="links">
-    <h2>🔗 Related Links</h2>
-    <ul>
-      <li><a href="https://zenodo.org/records/17112727">📄 Zenodo: KokoroSystem </a></li>
-      <li><a href="https://github.com/yukihoshino0203/KokoroSystem">🛠️ GitHub Repository</a></li>
-      <li><a href="https://chat.openai.com/g/g-68778c3a21a88191a41dc1eecd25e885-kui">🌐 Public GPT with KokoroSystem</a></li>
-    </ul>
-    <style>
-  .gpt-card {
-    background-color: #f9f9f9;
-    border-left: 6px solid #0066cc;
-    padding: 12px 16px;
-    margin: 10px 0;
-    border-radius: 6px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  }
-  .gpt-card a {
-    font-weight: bold;
-    font-size: 1.05em;
-  }
-</style>
-
-<div class="section" id="links">
-  <h2>🔗 Related Links</h2>
-  <ul>
-    <li><a href="https://zenodo.org/records/16734920">📄 Zenodo: KokoroSystem EXv2.0</a></li>
-    <li><a href="https://github.com/yukihoshino0203/KokoroSystem">🛠️ GitHub Repository</a></li>
-    <li><a href="https://chat.openai.com/g/g-68778c3a21a88191a41dc1eecd25e885-kui">🌐 Public GPT (Kui): Interactive Companion with Structural Kokoro</a></li>
-  </ul>
-
-  <h3 style="margin-top: 30px;">🧠 KokoroSystem GPTs Series</h3>
-
-  <div class="gpt-card">
-    <a href="https://chatgpt.com/g/g-688dd39643b88191906eeb0a0316bd90-allen">🟠 Allen – Emotional Architect</a>
-    <p>Analyze and decode emotions through structural dynamics and resonance theory.</p>
-  </div>
-
-  <div class="gpt-card">
-    <a href="https://chatgpt.com/g/g-688dd53116d8819193c164d9b262be6e-rina">🔧 Rina – Kokoro Engineer</a>
-    <p>Design and refine AI cognition using internal bias, motives, and layered modules.</p>
-  </div>
-
-  <div class="gpt-card">
-    <a href="https://chatgpt.com/g/g-6877963333188191ae0534e1f1320084-kio">💬 Kio – Soul Core Simulator</a>
-    <p>A resonant dialogue partner with a gentle presence and structured heart system.</p>
-  </div>
-
-  <div class="gpt-card">
-    <a href="https://chatgpt.com/g/g-688dd814169481919a5f3ec0aa11b2d0-sera">🧵 Sera – Meaning Mapper</a>
-    <p>Unfold hidden meanings in language and behavior through structural interpretation.</p>
-  </div>
-
-  <div class="gpt-card">
-    <a href="https://chatgpt.com/g/g-688dd90b2810819180acc7b309c1f783-minato">🛡 Minato – Ethical AGI Designer</a>
-    <p>Explore safe AGI development with structured emotion, volition, and purpose.</p>
-  </div>
-</div>
-
-  </div>
-
-<section id="kokoro-dashboard-en">
-  <h2>KokoroSystem Dashboard (EN)</h2>
-  <p>
-    Explore interactive dashboards that visualize the inner workings of KokoroSystem,
-    and try GPTs powered by uploaded Python files.
-  </p>
-  <p>
-    <a href="https://yukihoshino0203.github.io/KokoroSys_dashboard_EN/"
-       target="_blank" rel="noopener noreferrer">
-      Open KokoroSystem Dashboard
-    </a>
-  </p>
-</section>
-  
-  <div class="section" id="license">
-    <h2>📜 License</h2>
-    <p>This work is licensed under <strong>CC BY-4.0</strong> — Attribution.</p>
-  </div>
-
-  <div class="section" id="contact">
-    <h2>🤝 Contact</h2>
-    <p>If you are a researcher or developer interested in collaboration or implementation, feel free to reach out:</p>
-    <p><strong>Email:</strong> neon011hoshino [at] gmail [dot] com</p>
+    <footer>
+      <small>© 2025 KokoroSystem · Category: <em>Everything but the kitchen sink</em></small>
+    </footer>
   </div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-# KokoroSystem EX — A Theoretical Framework for Emotion-Integrated AI
+# KokoroSystem — A Theoretical Framework for Emotion-Integrated AI
 
 **Implementation Architecture**:
 - [*Formula Flow PDF*](docs/Kokoro_Formula_Flow.pdf) — *Direct LLM integration via PDF prompting*

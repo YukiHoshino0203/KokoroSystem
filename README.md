@@ -2,6 +2,8 @@
 
 **Implementation Architecture**:
 - [*Formula Flow PDF*](docs/Kokoro_Formula_Flow.pdf) — *Direct LLM integration via PDF prompting*
+- [*KokoroSystem Minimal Configuration — ILTV Framework*](docs/ILTV_Framework.pdf) — *PDF prompting–ready protocol for numerical “empathy-like” adjustments without code changes*
+
 - [*KokoroSystem Code*](docs/KokoroSystem_CODE.md) — *Standalone emotion processing reference*
 
 *Revolutionary approach: The PDF document can be directly provided to any LLM as a prompt attachment. The mathematical formulas within automatically enable KokoroSystem functionality without requiring code implementation. This represents a novel "PDF Prompting" methodology where theoretical frameworks become immediately executable through document-based instruction.*

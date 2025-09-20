@@ -34,7 +34,7 @@ will be most effective through academic and research team involvement.
 This repository presents three interconnected theoretical frameworks:
 
 ### 1. Universal Consciousness Theory (UCT)
-**Latest Publication:** [Zenodo DOI: 10.5281/zenodo.17113126](https://zenodo.org/records/17113126)
+**Latest Publication:** [Zenodo DOI: 10.5281/zenodo.17163930](https://zenodo.org/records/17163930)
 
 A unified consciousness theory separating conscious experience into evolutionarily conserved "Core Systems" and species-specifically differentiated "Peripheral Devices." Proposes specific hypotheses for qualia emergence through self-referential structures of resonance patterns.
 

@@ -186,7 +186,7 @@ This represents a departure from traditional AI approaches, suggesting that trul
 ```
 Universal Consciousness Theory:
 Hoshino, Y. (2025). Universal Consciousness Theory: Core System and Peripheral Device Model. 
-Zenodo. https://doi.org/10.5281/zenodo.17113126
+Zenodo. https://doi.org/10.5281/zenodo.17163930
 
 KokoroSystem Framework:
 Hoshino, Y. (2025). KokoroSystem: A Theoretical Proposal for Emotion-Integrated AI Architectures. 
